@@ -1,12 +1,12 @@
-import React from "react";
-import { AppUI } from "./AppUI";
-import { TaskProvider } from "../TaskContext";
+import React from 'react';
+import { TaskProvider } from '../TaskContext';
+import { AppUI } from './AppUI';
+
 
 function App() {
-
   return (
     <TaskProvider>
-      <AppUI/>
+      <AppUI />
     </TaskProvider>
   );
 }

@@ -1,20 +1,19 @@
-import React from "react";
-import './CreateTaskButton.css'
+import React from 'react';
+import './CreateTaskButton.css';
 
-function CreateTaskButton() {
-
+function CreateTaskButton(props) {
   const onClickButton = () => {
-    alert("Modal")
-  }
+    props.setOpenModal(prevState => !prevState);
+  };
 
   return (
-    <button 
-      className = "CreateTaskButton"
-      onClick = { onClickButton }
-      > 
-    + 
+    <button
+      className="CreateTaskButton"
+      onClick={onClickButton}
+    >
+      +
     </button>
-  )
+  );
 }
 
-export { CreateTaskButton }
+export { CreateTaskButton };

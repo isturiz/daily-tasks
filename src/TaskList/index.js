@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 import './TaskList.css'
 
 function TaskList(props) {
   return (
     <section>
       <ul>
-        { props.children }
+        {props.children}
       </ul>
     </section>
-  )
+  );
 }
 
-export { TaskList }
+export { TaskList };
