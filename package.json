@@ -40,5 +40,5 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   },
-  "homepages": "https://isturiz.github.io/daily-tasks"
+  "homepages": "git@github.com:isturiz/daily-tasks.git"
 }
