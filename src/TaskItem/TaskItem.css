@@ -15,7 +15,7 @@
   line-height: 24px;
   font-weight: 400;
 }
-.TaskItem-p--completed {
+.TaskItem-p--complete {
   text-decoration: line-through;
 }
 
