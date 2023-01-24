@@ -40,8 +40,8 @@ function TaskProvider(props) {
   const completeTask = (text) => {
     const taskIndex = tasks.findIndex(task => task.text === text);
     const newTasks = [...tasks];
-    newTasks[taskIndex].completed = true;
-    saveTasks(newTasks);
+    newTodos[taskIndex].completed = !newTasks[taskIndex].completed;
+	  saveTasks(newTasks);
   };
 
   const deleteTask = (text) => {

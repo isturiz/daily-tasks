@@ -25,7 +25,9 @@ function AppUI() {
   return (
     <React.Fragment>
       <TaskCounter />
-      <TaskSearch />
+      {/* <TaskSearch /> */}
+
+      
 
       <TaskList>
         {error && <TasksError />}
