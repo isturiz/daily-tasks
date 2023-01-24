@@ -1,5 +1,5 @@
 {
-  "name": "curso-react",
+  "name": "daily-tasks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,5 +40,5 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   },
-  "homepages": "https://isturiz.github.io/curso"
+  "homepages": "https://isturiz.github.io/daily-tasks"
 }
