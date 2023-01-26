@@ -8,8 +8,6 @@ import { TasksLoading } from '../TasksLoading';
 import { EmptyTasks } from '../EmptyTasks';
 import { TaskForm } from '../TaskForm';
 import { CreateTask } from '../CreateTask';
-import { CreateTaskButton } from '../CreateTaskButton';
-import { Modal } from '../Modal';
 
 function AppUI() {
   const {
@@ -18,8 +16,6 @@ function AppUI() {
     tasks,
     completeTask,
     deleteTask,
-    openModal,
-    setOpenModal,
     addTask,
   } = React.useContext(TaskContext);
   
@@ -43,16 +39,6 @@ function AppUI() {
           />
         ))}
       </TaskList>
-
-      {!!openModal && (
-        <Modal>
-          <TaskForm />
-        </Modal>
-      )}
-
-      <CreateTaskButton
-        setOpenModal={setOpenModal}
-      />
     </React.Fragment>
   );
 }
