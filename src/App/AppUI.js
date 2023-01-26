@@ -1,7 +1,6 @@
 import React from 'react';
 import { TaskContext } from '../TaskContext';
 import { TaskCounter } from '../TaskCounter';
-import { TaskSearch } from '../TaskSearch';
 import { TaskList } from '../TaskList';
 import { TaskItem } from '../TaskItem';
 import { TasksError } from '../TasksError';
@@ -15,7 +14,7 @@ function AppUI() {
   const {
     error,
     loading,
-    searchedTasks,
+    tasks,
     completeTask,
     deleteTask,
     openModal,
@@ -25,16 +24,13 @@ function AppUI() {
   return (
     <React.Fragment>
       <TaskCounter />
-      {/* <TaskSearch /> */}
 
       
 
       <TaskList>
         {error && <TasksError />}
         {loading && <TasksLoading />}
-        {(!loading && !searchedTasks.length) && <EmptyTasks />}
-        
-        {searchedTasks.map(task => (
+        {tasks.map(task => (
           <TaskItem
             key={task.text}
             text={task.text}

@@ -11,22 +11,9 @@ function TaskProvider(props) {
     error,
   } = useLocalStorage('TASKS_V1', []);
   const [openModal, setOpenModal] = React.useState(false);
-  const [searchValue, setSearchValue] = React.useState('');
 
   const completedTasks = tasks.filter(task => !!task.completed).length;
   const totalTasks = tasks.length;
-
-  let searchedTasks = [];
-
-  if (!searchValue.length >= 1) {
-    searchedTasks = tasks;
-  } else {
-    searchedTasks = tasks.filter(task => {
-      const taskText = task.text.toLowerCase();
-      const searchText = searchValue.toLowerCase();
-      return taskText.includes(searchText);
-    });
-  }
 
   const addTask = (text) => {
     const newTasks = [...tasks];
@@ -57,9 +44,7 @@ function TaskProvider(props) {
       error,
       totalTasks,
       completedTasks,
-      searchValue,
-      setSearchValue,
-      searchedTasks,
+      tasks,
       addTask,
       completeTask,
       deleteTask,
