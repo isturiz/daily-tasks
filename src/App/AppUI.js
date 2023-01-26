@@ -7,6 +7,7 @@ import { TasksError } from '../TasksError';
 import { TasksLoading } from '../TasksLoading';
 import { EmptyTasks } from '../EmptyTasks';
 import { TaskForm } from '../TaskForm';
+import { CreateTask } from '../CreateTask';
 import { CreateTaskButton } from '../CreateTaskButton';
 import { Modal } from '../Modal';
 
@@ -19,13 +20,15 @@ function AppUI() {
     deleteTask,
     openModal,
     setOpenModal,
+    addTask,
   } = React.useContext(TaskContext);
   
   return (
     <React.Fragment>
       <TaskCounter />
 
-      
+      <CreateTask
+        addTask={addTask}/>
 
       <TaskList>
         {error && <TasksError />}
