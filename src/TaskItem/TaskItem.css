@@ -1,18 +1,18 @@
 .TaskItem {
-  background-color: #FAFAFA;
+  background-color: rgba(255, 52, 52, 0);
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 24px;
+  margin-top: 2.5rem;
   box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
 }
 
 .TaskItem-p {
   margin: 24px 0 24px 24px;
-  width: calc(100% - 120px);
+  width: calc(100% - 12rem);
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1rem;
   font-weight: 400;
 }
 .TaskItem-p--complete {

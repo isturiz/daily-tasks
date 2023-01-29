@@ -3,7 +3,7 @@
   text-align: center;
   margin: 0;
   padding: 48px;
-  background: linear-gradient(120deg, rgba(113,241,254,1) 31%, rgba(87,173,149,1) 51%, rgba(255,225,126,1) 75%);
-  background-clip: text;
-  color: transparent;  
+  /* background: linear-gradient(120deg, rgba(113,241,254,1) 31%, rgba(87,173,149,1) 51%, rgba(255,225,126,1) 75%); */
+  /* background-clip: text; */
+  color: black;  
 }

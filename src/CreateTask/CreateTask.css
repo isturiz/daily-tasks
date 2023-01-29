@@ -3,9 +3,8 @@
 	padding: 20px 25px;
 	margin-bottom: 25px;
 	border-radius: 5px;
-	background: var(--Very-Dark-Desaturated-Blue);
-  background-color: whitesmoke;
-
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
 }
 
 .circulo {
@@ -26,13 +25,14 @@
 	outline: none;
 	background: transparent;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 18px;
-	color: var(--Light-Grayish-Blue);
+	font-size: 1.5rem;
+  color: black;
 }
 
 .input::placeholder {
-	color: var(--Dark-Grayish-Blue);
+  color: black;
 }
+
 
 /* Media quieries */
 @media screen and (max-width: 1000px) {
