@@ -5,33 +5,16 @@ ul {
   overflow: auto;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 
-ul::-webkit-scrollbar, textarea::-webkit-scrollbar {
+ul::-webkit-scrollbar{
   -webkit-appearance: none;
+  width: 8px;  
 }
 
-ul::-webkit-scrollbar:vertical, textarea::-webkit-scrollbar:vertical {
-  width:10px;
+ul::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background-color: black;
 }
 
-ul::-webkit-scrollbar-button:increment, 
-.contenedor::-webkit-scrollbar-button,
-textarea::-webkit-scrollbar-button:increment {
-  display: none;
-} 
 
-ul::-webkit-scrollbar:horizontal, textarea::-webkit-scrollbar:horizontal {
-  height: 10px;
-}
-
-ul::-webkit-scrollbar-thumb, textarea::-webkit-scrollbar-thumb {
-  background-color: #abecd6;
-  border-radius: 20px;
-  border: 2px solid #fbed96;
-}
-
-ul::-webkit-scrollbar-track, textarea::-webkit-scrollbar-track {
-  border-radius: 10px;  
-}

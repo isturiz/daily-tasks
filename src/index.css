@@ -58,7 +58,7 @@ code {
   font-size: 4.5rem;
   text-align: center;
   /* background: -webkit-linear-gradient(#abecd6, #fbed96); */
-  background-color: whitesmoke;
+  background-color: black;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

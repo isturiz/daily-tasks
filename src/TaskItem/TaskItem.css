@@ -1,11 +1,10 @@
 .TaskItem {
-  background-color: rgba(255, 52, 52, 0);
+  background-color: rgb(255, 255, 255);
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2.5rem;
-  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
 }
 
 .TaskItem-p {
@@ -56,7 +55,6 @@ li {
   border-radius: 0.8rem;
   padding: 0.5rem 1rem;
   display: flex;
-  box-shadow:  2px 2px 6px #00000060;
   position: relative;
   font-weight: bold;
   font-size: 1.1rem;
