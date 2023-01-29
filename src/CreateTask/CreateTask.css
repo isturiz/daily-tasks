@@ -1,0 +1,47 @@
+.createTask {
+	display: flex;
+	padding: 20px 25px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	background: var(--Very-Dark-Desaturated-Blue);
+  background-color: whitesmoke;
+
+}
+
+.circulo {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 25px;
+	height: 25px;
+	margin-right: 25px;
+	border: 1px solid var(--Very-Dark-Grayish-Blue);
+	border-radius: 50%;
+}
+
+.input {
+	width: 100%;
+	border: none;
+	outline: none;
+	background: transparent;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	color: var(--Light-Grayish-Blue);
+}
+
+.input::placeholder {
+	color: var(--Dark-Grayish-Blue);
+}
+
+/* Media quieries */
+@media screen and (max-width: 1000px) {
+	.createTask {
+		padding: 15px 20px;
+		margin-bottom: 15px;
+	}
+
+	.input {
+		font-size: 13px;
+	}
+}

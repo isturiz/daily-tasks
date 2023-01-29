@@ -5,8 +5,6 @@ import { TaskList } from '../TaskList';
 import { TaskItem } from '../TaskItem';
 import { TasksError } from '../TasksError';
 import { TasksLoading } from '../TasksLoading';
-import { EmptyTasks } from '../EmptyTasks';
-import { TaskForm } from '../TaskForm';
 import { CreateTask } from '../CreateTask';
 
 function AppUI() {
