@@ -1,11 +1,37 @@
 ul {
   list-style-type: none;
   padding: 0 1rem 2rem 1rem;
-  height: 32.5rem;
+  height: 50rem;
   overflow: auto;
-  margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 0rem;
+  gap: 1rem;
+}
 
+ul::-webkit-scrollbar, textarea::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+ul::-webkit-scrollbar:vertical, textarea::-webkit-scrollbar:vertical {
+  width:10px;
+}
+
+ul::-webkit-scrollbar-button:increment, 
+.contenedor::-webkit-scrollbar-button,
+textarea::-webkit-scrollbar-button:increment {
+  display: none;
+} 
+
+ul::-webkit-scrollbar:horizontal, textarea::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+ul::-webkit-scrollbar-thumb, textarea::-webkit-scrollbar-thumb {
+  background-color: #abecd6;
+  border-radius: 20px;
+  border: 2px solid #fbed96;
+}
+
+ul::-webkit-scrollbar-track, textarea::-webkit-scrollbar-track {
+  border-radius: 10px;  
 }

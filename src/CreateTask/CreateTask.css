@@ -1,10 +1,14 @@
 .createTask {
 	display: flex;
-	padding: 20px 25px;
 	margin-bottom: 25px;
-	border-radius: 5px;
   background-color: rgba(0, 0, 0, 0);
-  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  /* box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15); */
+
+	border-radius: 0.8rem;
+	padding: 1rem;
+	border: none;
+	height: 3rem;
+	box-shadow: 2px 2px 6px #00000060;
 }
 
 .circulo {
@@ -32,6 +36,8 @@
 .input::placeholder {
   color: black;
 }
+
+
 
 
 /* Media quieries */
