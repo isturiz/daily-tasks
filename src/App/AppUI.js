@@ -16,15 +16,19 @@ function AppUI() {
     deleteTask,
     addTask,
   } = React.useContext(TaskContext);
-  
+
   return (
     <React.Fragment>
-      <TaskCounter />
 
-      <CreateTask
-        addTask={addTask}/>
+      <div className='container1'>
+        <CreateTask
+          addTask={addTask} />
+      </div>
 
-      <TaskList>
+      <div className='container2'>
+        <TaskCounter />
+
+        <TaskList>
         {error && <TasksError />}
         {loading && <TasksLoading />}
         {tasks.map(task => (
@@ -37,6 +41,8 @@ function AppUI() {
           />
         ))}
       </TaskList>
+      </div>
+
     </React.Fragment>
   );
 }
