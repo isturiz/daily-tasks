@@ -7,6 +7,8 @@ import { TasksError } from '../TasksError';
 import { TasksLoading } from '../TasksLoading';
 import { CreateTask } from '../CreateTask';
 
+import taskImg from '../TaskIcon/person.svg'
+
 function AppUI() {
   const {
     error,
@@ -26,6 +28,8 @@ function AppUI() {
         <h2 className="subtitle">Create New Task</h2>
         <CreateTask
           addTask={addTask} />
+        <div className='relleno'></div>
+        <img src={taskImg} alt="person working" />
       </div>
 
       <div className='container2'>

@@ -31,6 +31,9 @@ code {
 }
 
 .container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 3rem;
   min-width: 30rem;
   background-color: white;
@@ -53,8 +56,6 @@ code {
 
 .title {
   font-size: 4.5rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
   text-align: center;
   /* background: -webkit-linear-gradient(#abecd6, #fbed96); */
   background-color: whitesmoke;
@@ -66,4 +67,13 @@ code {
   text-align: center;
   margin-top: 0;
   font-size: 2rem;
+}
+
+img {
+  width: 30rem;
+  padding-bottom: 5rem;
+}
+
+.relleno {
+  flex: 1;
 }
