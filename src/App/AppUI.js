@@ -33,7 +33,7 @@ function AppUI() {
         {/* <img src='https://assets.website-files.com/5e51c674258ffe10d286d30a/5e535cbcf5fa1a60fafcfcab_peep-95.svg' alt="life" /> */}
         {/* <img src='https://assets.website-files.com/5e51c674258ffe10d286d30a/5e535cf47488c27eb04a70d1_peep-97.svg' alt="life" /> */}
         <img src='https://assets.website-files.com/5e51c674258ffe10d286d30a/5e535bb6e35d38cae7684f8c_peep-86.svg' alt="life" />
-
+        
 
       </div>
 
