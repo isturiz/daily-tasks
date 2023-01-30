@@ -21,16 +21,18 @@
 }
 
 
+@media (min-width: 640px) {}
 
+@media (min-width: 768px) {
 
-/* Media quieries */
-@media screen and (max-width: 1000px) {
-	.createTask {
-		padding: 15px 20px;
-		margin-bottom: 15px;
-	}
-
-	.input {
-		font-size: 13px;
-	}
+  .createTask {
+    margin-bottom: 1.5rem;
+  }
 }
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {}
+
