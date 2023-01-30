@@ -14,7 +14,7 @@ function CreateTask ({ addTask }) {
 		<div className="createTask">
 			<input
 				className="input"
-				placeholder="Write new task"
+				placeholder="Write some :)"
 				onKeyDown={addTaskKeyDown}
 			></input>
 		</div>

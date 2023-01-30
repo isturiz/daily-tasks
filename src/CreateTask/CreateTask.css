@@ -1,24 +1,9 @@
 .createTask {
-  background-color: rgba(0, 0, 0, 0);
-  /* box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15); */
-
+  background-color: whitesmoke;
 	border-radius: 0.8rem;
 	padding: 1rem;
 	border: none;
 	height: 3rem;
-	box-shadow: 2px 2px 6px #00000060;
-}
-
-.circulo {
-	cursor: pointer;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 25px;
-	height: 25px;
-	margin-right: 25px;
-	border: 1px solid var(--Very-Dark-Grayish-Blue);
-	border-radius: 50%;
 }
 
 .input {
