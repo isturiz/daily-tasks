@@ -24,7 +24,7 @@ code {
   min-height: 100vh;
   width: 80vw;
   /* display: flex; */
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1.5fr;
   justify-content: center;
   flex-wrap: wrap;
@@ -35,7 +35,7 @@ code {
   flex-direction: column;
   align-items: center;
   margin: 3rem;
-  min-width: 30rem;
+  min-width: 20rem;
   background-color: white;
   padding: 4rem 4rem 1rem 4rem;
   max-height: 800px;
@@ -44,7 +44,6 @@ code {
 }
 
 .container2 {
-  margin-top: 4rem;
   min-width: 30rem;
   padding: 0.5rem 2rem 4rem 4rem;
   max-height: 800px;
@@ -57,10 +56,7 @@ code {
 .title {
   font-size: 4.5rem;
   text-align: center;
-  /* background: -webkit-linear-gradient(#abecd6, #fbed96); */
-  background-color: black;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: black;
 }
 
 .subtitle {
@@ -70,10 +66,46 @@ code {
 }
 
 img {
-  width: 30rem;
+  width: 4.8rem;
   padding-bottom: 5rem;
 }
 
 .relleno {
   flex: 1;
 }
+
+
+/* ========== Media Queries ========== */
+
+
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {
+  #root {
+    display: grid;
+  }
+
+  .container1 {
+    min-width: 20rem;
+
+  }
+
+  .container2 {
+    margin-top: 4rem;
+
+  }
+
+  .title {
+
+  }
+
+  img {
+    width: 30rem;
+  }
+}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {}
