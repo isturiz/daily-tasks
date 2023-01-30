@@ -6,7 +6,7 @@ function TaskCounter() {
   const { totalTasks, completedTasks } = React.useContext(TaskContext);
   
   return (
-    <h2 className="subtitle">Has completado {completedTasks} de {totalTasks} TASKS</h2>
+    <h2 className="subtitle">You have completed {completedTasks} of {totalTasks}</h2>
   );
 }
 
