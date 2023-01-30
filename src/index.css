@@ -44,7 +44,6 @@ code {
 
 .container2 {
   min-width: 30rem;
-  padding: 0.5rem 2rem 4rem 4rem;
   max-height: 800px;
   display: flex;
   flex-direction: column;
@@ -94,7 +93,7 @@ img {
 
   .container2 {
     margin-top: 4rem;
-
+    padding: 0.5rem 2rem 4rem 4rem;
   }
 
   .title {
@@ -112,7 +111,7 @@ img {
   .relleno {
     flex: 1;
   }
-  
+
 }
 
 @media (min-width: 1024px) {}
