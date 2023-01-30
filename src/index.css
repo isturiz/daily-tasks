@@ -57,11 +57,14 @@ code {
   text-align: center;
   color: black;
   margin: 2rem 0;
+
+  /* Propiedad en prueba */
+  display: none;
 }
 
 .subtitle {
   text-align: center;
-  margin-top: 0;
+  margin-top: 2rem;
   font-size: 2rem;
 }
 
@@ -96,6 +99,7 @@ img {
 
   .title {
     margin: 3rem 0;
+    display: block;
   }
 
   img {
