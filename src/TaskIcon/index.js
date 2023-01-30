@@ -1,14 +1,15 @@
 import React from 'react';
-import { ReactComponent as CheckSVG } from './check.svg';
-import { ReactComponent as DeleteSVG } from './delete.svg';
 import './TaskIcon.css';
+
+import { IconSquare } from '@tabler/icons-react';
+import { IconX } from '@tabler/icons-react';
 
 const iconTypes = {
   "check": color => (
-    <CheckSVG className="Icon-svg Icon-svg--check" fill={color} />
+    <IconSquare color={color}/>
   ),
   "delete": color => (
-    <DeleteSVG className="Icon-svg Icon-svg--delete" fill={color} />
+    <IconX color={color} />
   ),
 };
 
