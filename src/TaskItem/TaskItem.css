@@ -10,11 +10,12 @@
 .TaskItem-p {
   margin: 24px 0 24px 24px;
   width: calc(100% - 12rem);
-  font-size: 18px;
+  font-size: 1.5rem;
   line-height: 1rem;
   font-weight: 400;
   
 }
+
 .TaskItem-p--complete {
   text-decoration: line-through rgba(0, 0, 0, 0.425);
 }
@@ -39,6 +40,7 @@
   position: absolute;
   left: 12px;
 }
+
 .Icon-check--active {
   color: #4caf50;
 }
@@ -48,6 +50,7 @@
   top: -24px;
   right: 0;
 }
+
 .Icon-delete:hover {
   color: red;
 }
@@ -64,3 +67,17 @@ li {
   font-size: 1.1rem;
   white-space: pre-line;
 }
+
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {
+  .TaskItem-p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {}
