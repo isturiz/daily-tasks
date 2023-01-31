@@ -7,6 +7,9 @@ import { TasksError } from '../TasksError';
 import { TasksLoading } from '../TasksLoading';
 import { CreateTask } from '../CreateTask';
 
+import { IconBrandGithub } from '@tabler/icons-react';
+
+
 function AppUI() {
   const {
     error,
@@ -62,7 +65,10 @@ function AppUI() {
       <div className='relleno-container3'></div>
 
       <footer className='container3'>
-          <p>Creado por Istúriz</p>
+          <p>Made by Istúriz</p>
+          <a href="https://github.com/isturiz/daily-tasks" target="_blank">
+            <IconBrandGithub className='gh-link'/>
+          </a>
       </footer>
 
     </React.Fragment>

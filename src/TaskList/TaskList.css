@@ -4,7 +4,7 @@ ul {
   overflow: auto;
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: 0 0 2rem 0;
   /* max-height: 25rem; */
 }
 

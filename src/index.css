@@ -28,8 +28,7 @@ code {
   justify-content: center;
   flex-wrap: wrap;
   align-content: flex-start;
-  margin: 3rem 3rem 0 3rem;
-  padding: 1rem 3rem 0rem;
+  padding: 0 3rem;
 }
 
 .container1 {
@@ -40,6 +39,7 @@ code {
   border-radius: 2rem;
   width: 100%;
   height: min-content;
+  margin-top: 3rem;
 }
 
 .container2 {
@@ -52,17 +52,25 @@ code {
 }
 
 .container3 {
-  position: flex;
+  display: flex;
+  flex-direction: column;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.06);
   border-radius: 2rem 2rem 0 0;
   width: 100%;
-  font-size: 3rem;
+  align-items: center;
+  padding-top: 1rem;
 }
 
 .container3 p {
   margin: 0;
-  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.container3 .gh-link {
+
+  color: black;
+
 }
 
 .div-container1 {
@@ -146,8 +154,6 @@ img {
 
   .relleno {
     flex: 1;
-    width: 20px;
-    background-color: red;
   }
 
 .container3 {
