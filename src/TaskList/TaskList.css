@@ -1,12 +1,11 @@
 ul {
   list-style-type: none;
   margin: 0;
-  height: 50rem;
   overflow: auto;
   display: flex;
   flex-direction: column;
   padding: 0;
-
+  /* max-height: 25rem; */
 }
 
 ul::-webkit-scrollbar{

@@ -20,27 +20,26 @@ code {
 }
 
 #root {
-  /* padding: 3rem; */
   min-height: 100vh;
   width: 100vw;
-  /* display: flex; */
   display: flex;
+  flex-direction: column;
   grid-template-columns: 1fr 1.5fr;
   justify-content: center;
   flex-wrap: wrap;
+  align-content: flex-start;
+  margin: 3rem 3rem 0 3rem;
+  padding: 1rem 3rem 0rem;
 }
 
 .container1 {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  min-width: 20rem;
   background-color: white;
-  margin: 3rem 3rem 0 3rem;
-  padding: 1rem 3rem 2rem;
-  max-height: 800px;
   border-radius: 2rem;
   width: 100%;
+  height: min-content;
 }
 
 .container2 {
@@ -48,12 +47,26 @@ code {
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin: 0rem 3rem 0 3rem;
   width: 100%;
+  height: max-content;
+}
+
+.container3 {
+  position: flex;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 2rem 2rem 0 0;
+  width: 100%;
+  font-size: 3rem;
+}
+
+.container3 p {
+  margin: 0;
+  text-align: center;
 }
 
 .div-container1 {
- width: 100%;
+  width: 100%;
 }
 
 
@@ -83,6 +96,9 @@ img {
   width: 4.8rem;
 }
 
+.relleno-container3 {
+  flex:1 1 0;
+}
 
 
 /* ========== Media Queries ========== */
@@ -104,6 +120,7 @@ img {
     padding: 4rem 4rem 1rem 4rem;
     width: auto;
     margin: 3rem 0 3rem 0;
+    height: 60rem;
   }
 
   .container2 {
@@ -115,7 +132,7 @@ img {
 
   .div-container1 {
     width: 80%;
-   }
+  }
 
   .title {
     margin: 3rem 0;
@@ -124,14 +141,18 @@ img {
 
   img {
     width: 30rem;
-    padding-bottom: 5rem;
-
   }
 
 
   .relleno {
     flex: 1;
+    width: 20px;
+    background-color: red;
   }
+
+.container3 {
+  display: none;
+}
 
 }
 
