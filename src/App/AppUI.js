@@ -42,6 +42,7 @@ function AppUI() {
           <a href="https://github.com/isturiz/daily-tasks" target="_blank">
             <IconBrandGithub className='gh-link' style={{ width:"32px", height: "32px" }}/>
           </a>
+          
         </div>
 
 
