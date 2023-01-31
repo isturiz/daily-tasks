@@ -22,7 +22,7 @@ code {
 #root {
   /* padding: 3rem; */
   min-height: 100vh;
-  width: 80vw;
+  width: 100vw;
   /* display: flex; */
   display: flex;
   grid-template-columns: 1fr 1.5fr;
@@ -36,10 +36,11 @@ code {
   align-items: center;
   min-width: 20rem;
   background-color: white;
-  margin: 2rem 0 0 0;
+  margin: 3rem 3rem 0 3rem;
   padding: 1rem 4rem 2rem 4rem;
   max-height: 800px;
   border-radius: 2rem;
+  width: 100%;
 }
 
 .container2 {
@@ -48,6 +49,8 @@ code {
   display: flex;
   flex-direction: column;
   align-content: center;
+  margin: 0rem 3rem 0 3rem;
+  width: 100%;
 }
 
 
@@ -87,6 +90,8 @@ img {
 @media (min-width: 768px) {
   #root {
     display: grid;
+    width: 80vw;
+
   }
 
   .container1 {
@@ -94,7 +99,8 @@ img {
     margin: 3rem;
     flex-direction: column;
     padding: 4rem 4rem 1rem 4rem;
-
+    width: auto;
+    margin: 3rem 0 3rem 0;
   }
 
   .container2 {

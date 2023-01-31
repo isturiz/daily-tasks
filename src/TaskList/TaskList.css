@@ -1,10 +1,12 @@
 ul {
   list-style-type: none;
-  padding: 0 1rem 2rem 1rem;
+  margin: 0;
   height: 50rem;
   overflow: auto;
   display: flex;
   flex-direction: column;
+  padding: 0;
+
 }
 
 ul::-webkit-scrollbar{
@@ -15,6 +17,13 @@ ul::-webkit-scrollbar{
 ul::-webkit-scrollbar-thumb{
   border-radius: 2rem;
   background-color: black;
+}
+
+.sectionList {
+  display: flex;
+  flex-direction: column;
+
+
 }
 
 

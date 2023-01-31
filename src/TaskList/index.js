@@ -3,7 +3,7 @@ import './TaskList.css'
 
 function TaskList(props) {
   return (
-    <section>
+    <section className='sectionList'>
       <ul>
         {props.children}
       </ul>
