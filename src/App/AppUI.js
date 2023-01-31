@@ -37,6 +37,13 @@ function AppUI() {
         {/* <img src='https://assets.website-files.com/5e51c674258ffe10d286d30a/5e535cf47488c27eb04a70d1_peep-97.svg' alt="life" /> */}
         <img src='https://assets.website-files.com/5e51c674258ffe10d286d30a/5e535bb6e35d38cae7684f8c_peep-86.svg' alt="life" />
 
+        <div className='made-by-container'>
+          <p>Made by Istúriz</p>
+          <a href="https://github.com/isturiz/daily-tasks" target="_blank">
+            <IconBrandGithub className='gh-link' style={{ width:"32px", height: "32px" }}/>
+          </a>
+        </div>
+
 
       </div>
 
@@ -65,10 +72,10 @@ function AppUI() {
       <div className='relleno-container3'></div>
 
       <footer className='container3'>
-          <p>Made by Istúriz</p>
-          <a href="https://github.com/isturiz/daily-tasks" target="_blank">
-            <IconBrandGithub className='gh-link'/>
-          </a>
+        <p>Made by Istúriz</p>
+        <a href="https://github.com/isturiz/daily-tasks" target="_blank">
+          <IconBrandGithub className='gh-link' />
+        </a>
       </footer>
 
     </React.Fragment>

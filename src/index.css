@@ -54,7 +54,6 @@ code {
 .container3 {
   display: flex;
   flex-direction: column;
-  bottom: 0;
   background-color: rgba(0, 0, 0, 0.06);
   border-radius: 2rem 2rem 0 0;
   width: 100%;
@@ -62,15 +61,18 @@ code {
   padding-top: 1rem;
 }
 
+.made-by-container {
+  display: none;
+}
+
 .container3 p {
   margin: 0;
   font-size: 16px;
   margin-bottom: 10px;
 }
-.container3 .gh-link {
-
+.gh-link {
   color: black;
-
+  size: 40px;
 }
 
 .div-container1 {
@@ -158,6 +160,15 @@ img {
 
 .container3 {
   display: none;
+}
+
+.made-by-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem 2rem 0 0;
+  width: 100%;
+  align-items: center;
+  font-size: 2.4rem;
 }
 
 }
