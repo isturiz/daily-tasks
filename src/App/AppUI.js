@@ -25,7 +25,7 @@ function AppUI() {
 
         <div>
 
-          <h2 className="subtitle">Create New Task</h2>
+          <h2 className="subtitle-container1">Create New Task</h2>
           <CreateTask
             addTask={addTask} />
         </div>
