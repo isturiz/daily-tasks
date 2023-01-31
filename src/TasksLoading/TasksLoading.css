@@ -17,7 +17,7 @@
 
 .LoadingTask-completeIcon,
 .LoadingTask-deleteIcon {
-  border-radius: 50px;
+  border-radius: 2rem;
   height: 48px;
   width: 48px;
 }
