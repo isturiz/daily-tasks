@@ -14,10 +14,11 @@
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.5rem;
   color: black;
+	text-align: center
 }
 
 .input::placeholder {
-  color: black;
+  color: darkgray;
 }
 
 
