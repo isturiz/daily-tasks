@@ -23,7 +23,7 @@ function AppUI() {
 
       <div className='container1'>
 
-        <div>
+        <div className='div-container1'>
 
           <h2 className="subtitle-container1">Create New Task</h2>
           <CreateTask
@@ -57,6 +57,10 @@ function AppUI() {
             />
           ))}
         </TaskList>
+      </div>
+
+      <div className='container3'>
+        <p>Creado por Istúriz</p>
       </div>
 
     </React.Fragment>

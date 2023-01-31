@@ -37,7 +37,7 @@ code {
   min-width: 20rem;
   background-color: white;
   margin: 3rem 3rem 0 3rem;
-  padding: 1rem 4rem 2rem 4rem;
+  padding: 1rem 3rem 2rem;
   max-height: 800px;
   border-radius: 2rem;
   width: 100%;
@@ -45,12 +45,15 @@ code {
 
 .container2 {
   min-width: 30rem;
-  max-height: 800px;
   display: flex;
   flex-direction: column;
   align-content: center;
   margin: 0rem 3rem 0 3rem;
   width: 100%;
+}
+
+.div-container1 {
+ width: 100%;
 }
 
 
@@ -106,7 +109,13 @@ img {
   .container2 {
     margin-top: 4rem;
     padding: 0.5rem 2rem 4rem 4rem;
+    max-height: 800px;
+
   }
+
+  .div-container1 {
+    width: 80%;
+   }
 
   .title {
     margin: 3rem 0;

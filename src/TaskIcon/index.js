@@ -1,12 +1,13 @@
 import React from 'react';
 import './TaskIcon.css';
 
-import { IconSquare } from '@tabler/icons-react';
+import { IconSquareRounded } from '@tabler/icons-react';
+import { IconSquareRoundedCheck } from '@tabler/icons-react';
 import { IconX } from '@tabler/icons-react';
 
 const iconTypes = {
   "check": color => (
-    <IconSquare color={color}/>
+    color === 'gray' ? <IconSquareRounded color={color}/> : <IconSquareRoundedCheck color={color}/>
   ),
   "delete": color => (
     <IconX color={color} />
