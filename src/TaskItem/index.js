@@ -5,7 +5,7 @@ import './TaskItem.css';
 
 function TaskItem(props) {
   return (
-    <li className="TaskItem">
+    <li className={`TaskItem ${props.completed && 'TaskItem-li--complete'}`}>
       <CompleteIcon
         completed={props.completed}
         onComplete={props.onComplete}

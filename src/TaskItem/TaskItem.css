@@ -19,6 +19,10 @@
   text-decoration: line-through rgba(0, 0, 0, 0.425);
 }
 
+.TaskItem-li--complete {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
 .Icon {
   cursor: pointer;
   display: flex;
