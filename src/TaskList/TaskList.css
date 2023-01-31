@@ -1,7 +1,6 @@
 ul {
   list-style-type: none;
   margin: 0;
-  height: 50rem;
   overflow: auto;
   display: flex;
   flex-direction: column;
@@ -26,4 +25,17 @@ ul::-webkit-scrollbar-thumb{
 
 }
 
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {
+  ul {
+    height: 50rem;
+  }
+}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {}
 
