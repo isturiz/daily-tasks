@@ -11,8 +11,9 @@
   margin: 24px 0 24px 24px;
   width: calc(100% - 12rem);
   font-size: 1.5rem;
-  line-height: 1rem;
+  line-height: 2.2rem;
   font-weight: 400;
+  overflow-wrap: break-word;
   
 }
 
